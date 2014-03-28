@@ -21,7 +21,7 @@
         
       <link href="<c:url value="/resources/css/bootstrap-tagsinput.css"/>" rel="stylesheet"/>
       <link href="<c:url value="/resources/css/bootstrap.min.css"/>" rel="stylesheet"/>
-      <link href="<c:url value="/resources/css/bootstrap-theme.min.css"/>" rel="stylesheet"/>
+      <!--link href="<c:url value="/resources/css/bootstrap-theme.min.css"/>" rel="stylesheet"/-->
       <script src="<c:url value="/resources/js/bootstrap.js"/>"></script>
       <script src="<c:url value="/resources/js/jquery.min.js"/>"></script> 
       <script src="<c:url value="/resources/js/bootstrap-tagsinput.js"/>"></script>
@@ -84,6 +84,10 @@
           <div class="form-group">
             <label class="control-label" for="inputSmall">Choice D</label>
             <input class="form-control input-sm" name="choiceD" value="${question.choiceD }" type="text" id="inputSmall">
+          </div>
+          <div class="form-group">
+            <label class="control-label" for="inputSmall">Choice E</label>
+            <input class="form-control input-sm" name="choiceE" value="${question.choiceE }" type="text" id="inputSmall">
           </div> 	
 
     	   	<h6> Upload image (optional) </h6>   

@@ -21,7 +21,7 @@
     
 	<link href="<c:url value="/resources/css/bootstrap-tagsinput.css"/>" rel="stylesheet"/>
     <link href="<c:url value="/resources/css/bootstrap.min.css"/>" rel="stylesheet"/>
-    <link href="<c:url value="/resources/css/bootstrap-theme.min.css"/>" rel="stylesheet"/>
+    <!--link href="<c:url value="/resources/css/bootstrap-theme.min.css"/>" rel="stylesheet"/-->
 	<script src="<c:url value="/resources/js/bootstrap.js"/>"></script>
 	<script src="<c:url value="/resources/js/jquery.min.js"/>"></script> 
 	<script src="<c:url value="/resources/js/bootstrap-tagsinput.js"/>"></script>
@@ -75,10 +75,11 @@
 			Choice A: ${q.choiceA} <br> 
 			Choice B: ${q.choiceB} <br> 
 			Choice C: ${q.choiceC} <br> 
-			Choice D: ${q.choiceD} <br> 
+			Choice D: ${q.choiceD} <br>
+			Choice E: ${q.choiceE} <br> 
 			Image file name: ${q.image} 
 			<br>
-            <img src=${q.image }  width="170" height="150"/>
+            <img src="file://${q.image }"  width="170" height="150">
 			<br>
 			<ul class = "list-inline">
 			<li> 	
